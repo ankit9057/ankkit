@@ -1,0 +1,117 @@
+.sdsd {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fdfd {
+    background-image: url(/img/9c0132990e8c9898950b3040fdd10d6d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 !important;
+}
+
+.setbox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.w240img {
+    width: 240px;
+    height: auto; /* Changed to auto for better responsiveness */
+}
+
+.setp {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.setbtn {
+    border-radius: 21px;
+    background-color: yellow;
+    font-size: 25px;
+    font-weight: 501;
+    border: none;
+    color: black;
+}
+
+.setword {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.asas {
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 30px;
+    animation: ankit 4s ease infinite;
+    border-radius: 20px;
+}
+
+@keyframes sharma {
+    0% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+    50% {
+        background-position: 100% 50%;
+        transform: skewY(-2deg);
+    }
+    100% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+}
+
+.atoz {
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 30px;
+    animation: sharma 2s infinite;
+    border-radius: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .setp {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .setword {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .setbtn {
+        font-size: 18px; /* Adjust button size */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .w240img {
+        width: 180px; /* Adjust logo size */
+    }
+}
+
+@media (max-width: 576px) {
+    .setp, .setword {
+        font-size: 18px; /* Further adjust font sizes */
+    }
+
+    .setbtn {
+        font-size: 16px; /* Further adjust button size */
+        padding: 8px 16px; /* Further adjust padding */
+    }
+
+    .w240img {
+        width: 150px; /* Adjust logo size for very small screens */
+    }
+}
